@@ -9,7 +9,7 @@
 // "aBcd","AbCD" -> true
 // "AB","Ab"     -> false
 // "",""         -> false
-
+// yurrr
 
 function isOpposite(s1, s2) {
   if (s1.length !== s2.length) {
