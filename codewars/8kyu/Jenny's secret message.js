@@ -27,9 +27,11 @@ function greet(name){
     return "Hello, " + (name == "Johnny" ? "my love" : name) + "!";
   }
 
-  soltion 2 function greet(name){  
+  soltion 2 
+  function greet(name){  
     if(name === "Johnny")
       return "Hello, my love!";
     return "Hello, " + name + "!";
   }
-  soltuion 3 let greet = name => `Hello, ${name == "Johnny" ? "my love" : name}!`;
+  soltuion 3 
+  let greet = name => `Hello, ${name == "Johnny" ? "my love" : name}!`;
