@@ -14,6 +14,13 @@ function doubleChar(str) {
     
       return result;
     }
+
+    function doubleChar(str){
+      let result = '';
+      for (let i=0; i<str.length; i++){
+        result += str[i] + str[i];
+      }
+    }
     
 
 
@@ -25,3 +32,7 @@ function doubleChar(str) {
           return c + c;
         }).join("");
       }
+
+
+
+      

@@ -10,14 +10,7 @@
 
 // Note: if this seems too simple for you try the next level
 
-// const array = ["h","o","l","a"];
 
-// function printArray(array){
-//     array.removeAll("");
-//     const firstArray = arr.shift()
-//     const newFirstArray = "+firstArray+ "
-//     const lastArray = arr.pop()
-//     const newLastArray = " + lastArray + "
 
 
 //   }
@@ -25,6 +18,7 @@
 function printArray(array){
     return array.join();
   }
+
   Less Optimal
   tion printArray(array){
     return array.join(',');

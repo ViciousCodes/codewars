@@ -6,6 +6,9 @@
 
 // If your name would be Jeong-Ho Aristotelis, ad would cost £600. 
 // 20 leters * 30 = 600 (Space counts as a character).
+
+
+
 function billboard(name, price = 30) {
     let cost = 0;
   
@@ -16,3 +19,4 @@ function billboard(name, price = 30) {
     return cost;
   }
   
+

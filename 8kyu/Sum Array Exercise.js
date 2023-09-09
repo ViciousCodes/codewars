@@ -21,3 +21,12 @@ function sumArray(nums) {
   }
   return total;
 }
+
+
+Reduce function sum an array
+function Sumarray(nums){
+  nums.reduce(x, y) => {
+    return x + y;
+  }
+}
+
